@@ -1,0 +1,6 @@
+CREATE TABLE access_control (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    rfid_tag VARCHAR(20) NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    access_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
